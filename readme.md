@@ -2,7 +2,7 @@ This is my first SLAM system which is actually based on ORB_SLAM2 but without lo
 
 I tried my project on TUM dataset.
 
-If u want to run my code, please drag the 'Thirdparty' and 'Vocabulary' profile to the project dir.
+If you want to run my code, please drag the 'Thirdparty' and 'Vocabulary' profile to the project dir.
 
 ## TUM Dataset
 
