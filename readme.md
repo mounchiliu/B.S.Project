@@ -1,4 +1,4 @@
-This is my first SLAM system which is actually based on ORB_SLAM2 but without loop-closing algorithm.  (There is some explanation of the whole algorithm in the code.)
+This is my first SLAM system which is actually based on ORB_SLAM2 but without loop-closing algorithm.  (There is some explanation of the whole algorithm in the code)
 
 I tried my project on TUM dataset.
 
