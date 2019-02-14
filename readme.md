@@ -34,7 +34,7 @@ I tried my project on TUM dataset.
   ./main_tum setting/TUM1.yaml Vocabulary/ORBvoc.txt fr1_xyz associations.txt
 
 #######
-写在qtcreator 里时， 第一项main不需要写 从setting开始写
+If u want to run the code in qtcreator， just use the cmd starting from setting/... without main
 
 fr1/desk2 for desk_test2
 fr2/desk
