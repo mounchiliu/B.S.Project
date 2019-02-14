@@ -1,0 +1,68 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. 
+#--------------------------------------------------------------------------------------------
+
+# Camera calibration and distortion parameters (OpenCV) 
+Camera.fx: 522.355691645
+Camera.fy: 523.132143995
+Camera.cx: 473.124948123
+Camera.cy: 269.822642662
+
+Camera.k1: 1.1704425339062654e-03
+Camera.k2: 2.0653633284154502e-01
+Camera.p1: -3.3434975534685986e-03
+Camera.p2: -4.8112058721971303e-03
+Camera.k3: -4.1304094946572456e-01
+
+# Camera frames per second 
+Camera.fps: 30.0
+
+# IR projector baseline times fx (aprox.)
+Camera.bf: 40.0
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Close/Far threshold. Baseline times. #50
+ThDepth: 50.0 
+
+# Deptmap values factor 
+DepthMap: 1000.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+
+# ORB Extractor: Number of features per frame
+Extractor.nFeatures: 1000
+
+# ORB Extractor: Scale factor between levels in the scale pyramid 	
+Extractor.fScaleFactor: 1.2
+
+# ORB Extractor: Number of levels in the scale pyramid	
+Extractor.nLevels: 8
+
+# ORB Extractor: Fast threshold
+# Image is divided in a grid. At each cell FAST are extracted imposing a minimum response.
+# Firstly we impose iniThFAST. If no corners are detected we impose a lower value minThFAST
+# You can lower these values if your images have low contrast			
+Extractor.iniThFAST: 20
+Extractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Parameters For Viewer
+#--------------------------------------------------------------------------------------------
+Viewer.SizeOfPoint:2
+Viewer.SizeOfCamera: 0.08
+
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1
+Viewer.GraphLineWidth: 0.9
+
+Viewer.CameraLineWidth: 3
+Viewer.ViewpointX: 0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500
