@@ -37,7 +37,7 @@ If you want to run my code, please drag the 'Thirdparty' and 'Vocabulary' profil
   ./main_tum setting/TUM1.yaml Vocabulary/ORBvoc.txt fr1_xyz associations.txt
 
 #######
-If u want to run the code in qtcreator， just use the cmd starting from setting/... without main
+If you want to run the code in qtcreator， just use the cmd starting from setting/... without main
 
 fr1/desk2 for desk_test2
 fr2/desk
