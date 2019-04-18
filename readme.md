@@ -1,4 +1,6 @@
-This is my Undergraduate SLAM system which is actually based on ORB_SLAM2 but without loop-closing algorithm.  I compared my project with ORB_SLAM and PTAM.
+# Topic of my project: Building a SLAM system using microsoft Kinect.
+
+This is my Undergraduate SLAM system which is actually based on ORB_SLAM2 but without loop-closing algorithm.  For evaluation, I compared the results of my project with ORB_SLAM and PTAM.
 
 I tried my project on TUM dataset.
 
